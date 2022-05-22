@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>The Digital Maze</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.typekit.net/zpf0elj.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/603f568d4e.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        window.onload = (function (oldLoad) {
+            return function () {
+                oldLoad && oldLoad();
+                if (window.addEventListener) {
+                    window.addEventListener('load', websiteInit());
+                } else {
+                    window.attachEvent('onload', websiteInit());
+                }
+            }
+        })(window.onload)
+        function websiteInit() {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 150) {
+                    $(".scroll-top").addClass("show");
+                } else {
+                    $(".scroll-top").removeClass("show");
+                }
+            });
+        }
+
+    </script>
+</head>
+
+<body>
+    <!--Header-->
+    <div class="header background-dark">
+        <div class="container-lg">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand flex-shrink-1" href="/">
+                    <img src="./assets/images/logo.svg" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars color-white fa-2x"></i>
+                </button>
+                <div class="collapse navbar-collapse navbar-menu w-100 justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Case Studies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--End-Header-->
+
+    <!--Contents-->
+    <section class="slider">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="slider__contents flex-column align-content-center">
+                        <h2 class="slider__title">Welcome to</h2>
+                        <h2 class="slider__title slider__title--green">our website<span class="color-white">.</span>
+                        </h2>
+                        <div class="slider__button d-flex flex-row align-content-center">
+                            <div class="slider__btn">
+                                <a href="#" class="slider__btn-link border-radius--circle">About us</a>
+                            </div>
+                            <div class="slider__btn">
+                                <a href="#"
+                                    class="slider__btn-link slider__btn-link--green border-radius--circle">Contact
+                                    us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container-lg">
+            <div class="services__wrapper">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="services__item">
+                            <h2 class="color-dark services__item-title">
+                                You can do more with <span class="color-green">us</span>.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="services__item">
+                            <p class="services__item-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <div class="services__item-button">
+                                <a href="#" class="services__item-link border-radius--circle color-dark-blue">Our
+                                    Services <i class="fas fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose">
+        <div class="container-lg">
+            <div class="why-choose__wrapper">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-sm-12 col-md-12 col-lg-8">
+                        <div class="why-choose__heading d-flex justify-content-center align-items-center flex-column">
+                            <h2 class="color-dark why-choose__heading-title">
+                                This is an intro about why choose <span class="color-green">our website</span>.
+                            </h2>
+                            <p class="why-choose__heading-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <div class="why-choose__heading-button d-flex flex-row align-content-center">
+                                <div class="why-choose__btn align-items-center">
+                                    <a href="#" class="why-choose__btn-link border-radius--circle">About us <i
+                                            class="fas fa-long-arrow-right"></i></a>
+                                </div>
+                                <div class="why-choose__btn align-items-center">
+                                    <a href="#"
+                                        class="why-choose__btn-link why-choose__btn-link--green border-radius--circle">Contact
+                                        us <i class="fas fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-choose__list">
+                    <div class="why-choose__item flex-column color-dark">
+                        <span class="why-choose__item-icon"><img src="./assets/images/icon.png" alt="" /></span>
+                        <h3 class="why-choose__item-title">This is something
+                            <span class="color-green">we</span> offer.
+                        </h3>
+                        <p class="why-choose__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt.</p>
+                    </div>
+                    <div class="why-choose__item flex-column">
+                        <span class="why-choose__item-icon"><img src="./assets/images/icon.png" alt="" /></span>
+                        <h3 class="why-choose__item-title">This is something
+                            <span class="color-green">we</span> offer.
+                        </h3>
+                        <p class="why-choose__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt.</p>
+                    </div>
+                    <div class="why-choose__item flex-column">
+                        <span class="why-choose__item-icon"><img src="./assets/images/icon.png" alt="" /></span>
+                        <h3 class="why-choose__item-title">This is something
+                            <span class="color-green">we</span> offer.
+                        </h3>
+                        <p class="why-choose__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial">
+        <div class="container">
+            <div class="testimonial__wrapper">
+                <div class="row">
+                    <div class="col-12">
+                        <div
+                            class="testimonial__item align-items-center justify-content-center color-white background-dark">
+                            <p>This can be a testimonial or quote either form a client or from Lemonpath itself, this is
+                                just place holder text. Key words to be displayed in <span
+                                    class="color-green">yellow</span>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-started background-dark">
+        <div class="container-lg">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div class="get-started__item">
+                        <h2 class="get-started__title color-white">
+                            Want to get in touch? Here is <span class="color-green">how</span>.
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <div class="get-started__form">
+                        <form>
+                            <div class="get-started__form-input">
+                                <input type="email" class="form-control border-radius--circle"
+                                    placeholder="Enter your email address…">
+                            </div>
+                            <button type="submit" class="get-started__form-btn background-green">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer background-dark">
+        <div class="container-lg">
+            <div class="footer__wrapper">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="footer__item d-flex flex-column">
+                            <p class="color-white params">Follow us on social media</p>
+                            <span class="footer__item-icon"><i
+                                    class="fa-brands fa-linkedin-in fa-2x main-icon"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                                <div class="footer__menu">
+                                    <h3 class="footer__menu-title">Links</h3>
+                                    <ul class="footer__menu-item">
+                                        <li><a href="" class="footer__menu-link color-white">About</a></li>
+                                        <li><a href="" class="footer__menu-link color-white">Services</a></li>
+                                        <li><a href="" class="footer__menu-link color-white">Case Studies</a></li>
+                                        <li><a href="" class="footer__menu-link color-white">Blog</a></li>
+                                        <li><a href="" class="footer__menu-link color-white">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                                <div class="footer__menu">
+                                    <h3 class="footer__menu-title">Services</h3>
+                                    <ul class="footer__menu-item">
+                                        <li><a href="" class="footer__menu-link color-white">Service 1</a></li>
+                                        <li><a href="" class="footer__menu-link color-white">Service 2</a></li>
+                                        <li><a href="" class="footer__menu-link color-white">Service 3</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="footer__menu">
+                                    <h3 class="footer__menu-title">Contact</h3>
+                                    <ul class="footer__menu-item">
+                                        <p class="footer__menu-info color-white">Lorem ipsum dolor,</p>
+                                        <p class="footer__menu-info color-white">Sit amet consecetetur.</p>
+                                        <p class="footer__menu-info color-white"><span
+                                                class="color-green">Telephone:</span> <a href="tel:+44(0)1234567890"
+                                                class="footer__menu-link">+44(0) 123 456
+                                                7890</a></p>
+                                        <p class="footer__menu-info color-white"><span
+                                                class="color-green">Email:</span><a href="mailto:sales@ourwebsite.co.uk"
+                                                class="footer__menu-link"> sales@ourwebsite.co.uk</a></p>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right py-4">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="copy-right__item">
+                            <p class="color-white">
+                                <i class="fa-solid fa-copyright"></i> 2022. All rights reserved.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 pr-0">
+                        <div class="copy-right__menu">
+                            <ul class="d-flex align-items-center justify-content-end copy-right__menu-list">
+                                <li><a href="" class="copy-right__menu-link">Privacy Policy</a></li>
+                                <li><a href="" class="copy-right__menu-link">Terms & Conditions</a></li>
+                                <li><a href="" class="copy-right__menu-link">Modern Slavery</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="scroll-top align-items-center flex-row">
+        <a href="#" class="scroll-top__link">Scroll top <i class="fa-solid fa-angle-up scroll-top__icon"></i></a>
+    </div>
+    <!--End-Contents-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
